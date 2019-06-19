@@ -9,6 +9,6 @@ class Anagram
     # @word.split("")
 
     array.select{|i| i.split("").sort ==  @word.split("").sort}
-    binding.pry
+    # binding.pry
   end
 end
