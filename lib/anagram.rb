@@ -10,4 +10,5 @@ class Anagram
     array.select{|i| i.split("").sort ==  @word.split("").sort}
     # binding.pry
   end
+
 end
